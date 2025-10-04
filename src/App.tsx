@@ -12,8 +12,8 @@ import Layout from "./components/Layout.tsx";
 // import WindowSize from "./components/WindowSize.tsx";
 // import NameChangerWithEffect from "./components/NameChangerWithEffect.tsx";
 
-// import Timer from "./components/Timer.tsx";
-import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
+import Timer from "./components/Timer.tsx";
+// import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
 // import {useEffect} from "react";
 // import CounterAdvanced from "./components/CounterAdvanced.tsx";
 // import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
@@ -74,11 +74,11 @@ function App() {
 
                 {/*<CounterAdvanced />*/}
 
-                <CounterWithCustomHook />
+                {/*<CounterWithCustomHook />*/}
 
                 {/*<NameChangerWithEffect />*/}
 
-                {/*<Timer />*/}
+                <Timer />
 
                 {/*<WindowSize />*/}
 
