@@ -16,8 +16,8 @@ import Layout from "./components/Layout.tsx";
 // import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
 // import {useEffect} from "react";
 // import CounterAdvanced from "./components/CounterAdvanced.tsx";
-// import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
-import NameChanger from "./components/NameChanger.tsx";
+import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
+// import NameChanger from "./components/NameChanger.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
 // import Counter from "./components/Counter.tsx";
@@ -68,9 +68,9 @@ function App() {
 
                 {/*<Counter />*/}
 
-                <NameChanger />
+                {/*<NameChanger />*/}
 
-                {/*<CounterWithMoreStates/>*/}
+                <CounterWithMoreStates/>
 
                 {/*<CounterAdvanced />*/}
 
