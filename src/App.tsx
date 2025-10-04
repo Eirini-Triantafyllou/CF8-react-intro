@@ -13,10 +13,10 @@ import Layout from "./components/Layout.tsx";
 // import NameChangerWithEffect from "./components/NameChangerWithEffect.tsx";
 
 // import Timer from "./components/Timer.tsx";
-// import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
+import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
 // import {useEffect} from "react";
 // import CounterAdvanced from "./components/CounterAdvanced.tsx";
-import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
+// import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
 // import NameChanger from "./components/NameChanger.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
@@ -70,11 +70,11 @@ function App() {
 
                 {/*<NameChanger />*/}
 
-                <CounterWithMoreStates/>
+                {/*<CounterWithMoreStates/>*/}
 
                 {/*<CounterAdvanced />*/}
 
-                {/*<CounterWithCustomHook />*/}
+                <CounterWithCustomHook />
 
                 {/*<NameChangerWithEffect />*/}
 
