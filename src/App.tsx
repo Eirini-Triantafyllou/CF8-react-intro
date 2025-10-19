@@ -14,11 +14,9 @@ import {BrowserRouter, Route, Routes} from "react-router";
 import NameChanger from "./components/NameChanger.tsx";
 import HomePage from "./pages/HomePage.tsx";
 import Timer from "./components/Timer.tsx";
-// import Layout from "./components/Layout.tsx";
 import RouterLayout from "./components/RouterLayout.tsx";
-import UserPage from "./pages/UserPage.tsx";
-import ControlledInput from "./components/ControlledInput.tsx";
-import UncontrolledInput from "./components/UncontrolledInput.tsx";
+// import Layout from "./components/Layout.tsx";
+
 // import WindowSize from "./components/WindowSize.tsx";
 // import NameChangerWithEffect from "./components/NameChangerWithEffect.tsx";
 
@@ -32,9 +30,6 @@ import UncontrolledInput from "./components/UncontrolledInput.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
 // import Counter from "./components/Counter.tsx";
 
-function MultifiedForm() {
-    return null;
-}
 
 function App() {
 
@@ -121,16 +116,12 @@ function App() {
                     {/*<Route path="examples/name-changer" element={<NameChanger />}/>*/}
                     {/*<Route path="examples/timer" element={<Timer />}/>*/}
 
-
                       <Route path="examples?">
                         <Route path="name-changer" element={<NameChanger/>}/>
                         <Route path="timer" element={<Timer/>}/>
-                         <Route path="controlled-input" element={<ControlledInput/>}/>
-                          <Route path="uncontrolled-input" element={<UncontrolledInput/>}/>
-                          <Route path="multified-form" element={<MultifiedForm/>}/>
+
                         {/*<Route path="*" element={<ExamplePage/>}/>*/}
                       </Route>
-
                     </Route>
 
                     {/*<Route path="users/:userId" element={<UserPage />} />*/}
@@ -140,7 +131,7 @@ function App() {
 
                     <Route path="users">
                         <Route path=":userId">
-                            <Route index element={<UserPage />}/>
+                            {/*<Route index element={<UserPage />}/>*/}
                             {/*<Route path="accounts" element={<UserAccountPage/>}/>*/}
                         </Route>
                     </Route>
