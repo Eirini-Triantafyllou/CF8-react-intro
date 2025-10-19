@@ -14,8 +14,9 @@ import {BrowserRouter, Route, Routes} from "react-router";
 import NameChanger from "./components/NameChanger.tsx";
 import HomePage from "./pages/HomePage.tsx";
 import Timer from "./components/Timer.tsx";
-import RouterLayout from "./components/RouterLayout.tsx";
 // import Layout from "./components/Layout.tsx";
+import RouterLayout from "./components/RouterLayout.tsx";
+import UserPage from "./pages/UserPage.tsx";
 
 // import WindowSize from "./components/WindowSize.tsx";
 // import NameChangerWithEffect from "./components/NameChangerWithEffect.tsx";
@@ -29,6 +30,7 @@ import RouterLayout from "./components/RouterLayout.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
 // import Counter from "./components/Counter.tsx";
+
 
 
 function App() {
@@ -131,7 +133,7 @@ function App() {
 
                     <Route path="users">
                         <Route path=":userId">
-                            {/*<Route index element={<UserPage />}/>*/}
+                            <Route index element={<UserPage />}/>
                             {/*<Route path="accounts" element={<UserAccountPage/>}/>*/}
                         </Route>
                     </Route>
